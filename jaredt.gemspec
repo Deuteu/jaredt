@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'Deuteu@users.noreply.github.com'
   s.homepage    = 'https://github.com/Deuteu'
   s.license     = 'MIT'
-  s.files       = %w(lib/jaredt.rb)
+  s.files       = %w(lib/jaredt.rb lib/tasks/jaredt.rake)
+  s.add_runtime_dependency 'rails', '~> 4.0', '>= 4.0.0'
 end

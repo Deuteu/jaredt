@@ -1,2 +1,5 @@
-class Jaredt
+class JaredtTask < Rails::Railtie
+  rake_tasks do
+    load 'tasks/*.rake'
+  end
 end

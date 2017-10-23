@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Tasks to wake up web app.'
   s.authors     = ['Guillaume Dt']
   s.email       = 'Deuteu@users.noreply.github.com'
-  s.homepage    = 'https://github.com/Deuteu'
+  s.homepage    = 'https://github.com/Deuteu/jaredt'
   s.license     = 'MIT'
   s.files       = %w(lib/jaredt.rb lib/tasks/jaredt.rake)
   s.add_runtime_dependency 'rails', '>= 4', '< 6'

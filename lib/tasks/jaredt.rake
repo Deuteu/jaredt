@@ -11,7 +11,7 @@ namespace :jared do
   desc 'This task can be called by the Heroku scheduler add-on'
   task heroku: :environment do
     if ENV['HEROKU_APP_NAME'].to_s.blank?
-      Rails.logger.info 'No Heroku app name'
+      Rails.logger.info 'No Heroku app name to wake up'
     else
       ping_home("https://#{ENV['HEROKU_APP_NAME']}.herokuapp.com")
     end
@@ -22,7 +22,7 @@ namespace :jared do
     if ENV['WAKE_UP_URL'].to_s.blank?
       Rails.logger.info 'No url to wake up'
     else
-      ping_home("https://#{ENV['WAKE_UP_URL']}.herokuapp.com")
+      ping_home(ENV['WAKE_UP_URL'].to_s)
     end
   end
 end

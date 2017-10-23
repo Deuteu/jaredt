@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/Deuteu'
   s.license     = 'MIT'
   s.files       = %w(lib/jaredt.rb lib/tasks/jaredt.rake)
-  s.add_runtime_dependency 'rails', '~> 4.0', '>= 4.0.0'
+  s.add_runtime_dependency 'rails', '>= 4', '< 6'
 end

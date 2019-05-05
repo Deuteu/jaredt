@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'jaredt'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.date        = '2017-10-22'
   s.summary     = 'Jared'
   s.description = 'Tasks to wake up web app.'
